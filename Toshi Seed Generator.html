@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="no-js" data-websigner.1.0.7="true" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" src="Toshi%20Seed%20Generator_files/qr.js"></script><title>Toshi Seed Generator</title><style type="text/css">* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  background: #FAFAFA;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0; }
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+input {
+  font-size: 14px;
+  padding: 10px;
+  border: 2px solid black;
+  display: inline-block;
+  width: 800px; }
+
+#generate {
+  font-size: 120%;
+  padding: 10px; }
+
+#qrcode {
+  margin: 10px 0px; }
+
+.section {
+  margin: 20px 0;
+  padding: 10px; }
+  .section p.lead {
+    font-weight: bold; }
+
+.new {
+  background-color: #f4f8fa;
+  border-left: 4px solid #5bc0de; }
+
+.old {
+  background-color: #fcf8f2;
+  border-left: 4px solid #f0ad4e; }
+
+.label {
+  font-weight: bold; }
+</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head><body><div class="container"><h1>Toshi Seed Generator</h1><p>See <a href="http://developers.toshi.org/docs/creating-a-token-app">Creating a Toshi App</a> for usage.</p><button id="generate">Regenerate</button><div class="section new"><p class="lead">For token-app-js v0.1.3+</p><h3>TOKEN_APP_SEED</h3><input id="code" value="mouse paddle medal clip print crumble tackle wheel fancy oven flip escape" type="text"><p>You can also paste a seed here ^ to see your addresses</p><p><span class="label">Token App Id: </span><span id="address">0xea28dbd0231708fb88313933108133a2dbfcd974</span></p><p><span class="label">Token App Payment Address: </span><span id="payment_address">0x4b244cd6d87173b3bf7e0ceb18e6a1223c04d7ab</span></p></div><div class="section old"><p class="lead">For token-app-js &lt;= v0.1.2</p><h3>TOKEN_APP_ID</h3><input id="old_address" value="0xea28dbd0231708fb88313933108133a2dbfcd974" type="text"><h3>TOKEN_APP_PAYMENT_ADDRESS</h3><input id="old_payment_address" value="0xba43b2f305c62d6a43338176017ced01bab1ae9f" type="text"><h3>TOKEN_APP_SEED</h3><input id="old_code" value="mouse paddle medal clip print crumble tackle wheel fancy oven flip escape" type="text"><p>You can also paste a seed here ^ to see your addresses</p></div><h4>Optional: Generate a QR Code</h4><p>You
+ can generate a QR code for your bot by inputting its TOKEN_APP_USERNAME
+ below. This code can be scanned using the Token mobile client to add 
+your bot as a contact.</p><h3>TOKEN_APP_USERNAME</h3><input id="username" value="chatty-bot" type="text"><div id="qrcode" title="https://app.toshi.org/add/@chatty-bot"><canvas width="300" height="300" style="display: none;"></canvas><img alt="Scan me!" style="display: block;" src="data:image/png;base64,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"></div></div><script type="text/javascript" src="Toshi%20Seed%20Generator_files/app.js"></script></body></html>
