@@ -19,6 +19,7 @@ class Client {
     this.nextRpcId = 0;
 
     let stage = process.env.STAGE || 'development';
+    console.log("config file : config/"+stage+".yml")
     this.config = new Config('config/' + stage + '.yml');
 
     IdService.initialize(this.config.token_id_service_url, this.config.identityKey);
